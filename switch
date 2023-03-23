@@ -1,0 +1,28 @@
+<?php
+if(isset($_POST['feedback'])){
+	$feedback = $_POST['feedback'];
+	foreach($feedback as $option){
+		switch($option){
+			case 'Muito bom':
+				echo "Você selecionou Muito bom";
+				break;
+			case 'Ótimo':
+				echo "Você selecionou Ótimo";
+				break;
+			case 'Regular':
+				echo "Você selecionou Regular";
+				break;
+			case 'Muito Ruim':
+				echo "Você selecionou Muito Ruim";
+				break;
+		}
+		echo "<br>";
+	}
+}
+?>
+Este código verifica se a variável $_POST['feedback'] está definida e, se estiver, percorre cada opção selecionada usando um loop foreach. Em seguida, usa um comando switch para executar um bloco de código com base na opção selecionada. Neste exemplo, simplesmente imprime a opção selecionada na tela, mas você pode fazer qualquer coisa que desejar com esses valores.
+
+
+
+
+
