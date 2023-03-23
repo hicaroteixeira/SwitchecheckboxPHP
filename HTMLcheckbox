@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Opções de Feedback</title>
+</head>
+<body>
+	<form action="feedback.php" method="post">
+		<label>
+			<input type="checkbox" name="feedback[]" value="Muito bom">
+			Muito bom
+		</label>
+		<label>
+			<input type="checkbox" name="feedback[]" value="Ótimo">
+			Ótimo
+		</label>
+		<label>
+			<input type="checkbox" name="feedback[]" value="Regular">
+			Regular
+		</label>
+		<label>
+			<input type="checkbox" name="feedback[]" value="Muito Ruim">
+			Muito Ruim
+		</label>
+		<br>
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
